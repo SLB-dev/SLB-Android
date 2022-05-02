@@ -4,7 +4,7 @@
 
 <br>
 
-**COMMIT IMOGE**
+**COMMIT IMOJI**
 ---
 
 :art:  -  코드 개선
