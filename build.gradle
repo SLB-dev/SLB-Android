@@ -1,6 +1,10 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     dependencies {
+        classpath(ProjectGradle.ANDROID)
+        classpath(ProjectGradle.KOTLIN)
+        classpath(ProjectGradle.DAGGER_HILT)
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10")
         classpath 'com.google.gms:google-services:4.3.10'
     }
 }
