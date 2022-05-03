@@ -35,11 +35,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    buildFeatures{
+    buildFeatures {
         dataBinding true
     }
     viewBinding {
         enabled = true
+    }
 }
 
 dependencies {
@@ -54,6 +55,6 @@ dependencies {
     implementation(Google.HILT_ANDROID)
     kapt(Google.HILT_ANDROID_COMPILER)
 
-    implementation 'com.google.firebase:firebase-analytics-ktx'
-    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+    implementation(Google.FIREBASE_ANALYTICS)
+    implementation platform(Google.FIREBASE_BOM)
 }

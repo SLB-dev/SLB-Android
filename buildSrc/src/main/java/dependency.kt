@@ -24,8 +24,12 @@ object AndroidTest {
 
 object Google {
     const val MATERIAL = "com.google.android.material:material:${GradleVersions.MATERIAL}"
+
     const val HILT_ANDROID = "com.google.dagger:hilt-android:${GradleVersions.HILT}"
     const val HILT_ANDROID_COMPILER = "com.google.dagger:hilt-android-compiler:${GradleVersions.HILT}"
+
+    const val FIREBASE_ANALYTICS = "com.google.firebase:firebase-analytics-ktx"
+    const val FIREBASE_BOM = "com.google.firebase:firebase-bom:${GradleVersions.FIREBASE_BOM}"
 }
 
 object GradleVersions {
@@ -47,4 +51,6 @@ object GradleVersions {
     const val ESPRESSO_CORE = "3.4.0"
 
     const val HILT = "2.38.1"
+
+    const val FIREBASE_BOM = "29.3.1"
 }
