@@ -43,6 +43,7 @@
             android:background="@drawable/login_signup_view2"
             android:fontFamily="@font/inter_medium"
             android:hint="   Password"
+            android:inputType="textPassword"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.502"
